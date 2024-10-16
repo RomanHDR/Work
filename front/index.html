@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="./favicon.ico" rel="icon" > 
+    <link href="./css/log.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="field">
+            <div class="field_border">
+                <div class="content">
+                    <div class="hello">
+                        <img class="icon" src="./login-icon.svg" alt="sorry" width="80" height="80">
+                        <p class="hello_text">Добро пожаловать!</p>
+                        <p class="hello_text_small">Авторизируйтесь, чтобы продолжить</p>
+                    </div>
+                    <form action="#" method="post" class="login_form">
+                        <div class="email_field">
+                            <lable for="email">Email</lable>
+                            <input type="email" name="email" placeholder="Email адрес" id="email" required>
+                        </div>
+                        <div class="password_field">
+                            <lable for="password">Пароль</lable>
+                            <input type="password" name="password" placeholder="Пароль" id="password" required>
+                        </div>
+                        <div class="remember_me">
+                            <div class="remember_me_field">
+                                <input type="checkbox" id="rememberme" name="rememberme">
+                                <label for="rememberme">Запомнить</label>
+                            </div>
+                        </div>
+                        <div class="sign_in">
+                            <button type="submit">Войти</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    display: block;
+    line-height: inherit;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.field_border {
+    padding: 0.3rem;
+    border-radius: 56px;
+    background: linear-gradient(180deg, rgb(7, 206, 123) 10%, rgba(33, 150, 243, 0) 30%);
+}
+
+.content {
+    background-color: white;
+    border-radius: 53px;
+    max-width: 100%;
+    padding: 5rem;
+}
+
+.hello {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;   
+}
+
+.icon {
+    margin-bottom: 10px;
+}
+
+.hello_text {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.hello_text_small {
+    font-size: 15px;
+    color: rgb(78, 78, 78);
+}
+
+.email_field {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.email_field> lable {
+    margin-bottom: 5px;
+}
+.email_field> input {
+    border: 1px solid rgb(134, 132, 132);
+    border-radius: 10px;
+    font-size: 13px;
+    padding: 7px 10px; 
+}
+
+.password_field {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.password_field> lable {
+    margin-bottom: 5px;
+}
+
+.password_field> input {
+    border: 1px solid rgb(134, 132, 132);
+    border-radius: 10px;
+    font-size: 13px;
+    padding: 7px 10px; 
+}
+
+.remember_me {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.remember_me_field {
+    margin-bottom: 20px;
+}
