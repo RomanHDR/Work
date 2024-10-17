@@ -20,21 +20,25 @@ html {
 }
 
 body {
+    font-family: Roboto, 'SansSerif';
     width: 100%;
     height: 100%;
     overflow-x: hidden;
-    display:block;
+    display: block;
     line-height: inherit;
 }
 
 .main {
-    min-width: 100vw;
     min-height: 100vh;
-    background-color:aliceblue;
+    background-color: rgb(240, 248, 255);
     display: flex;
     flex-direction:row;
     justify-content: center;
     align-items: center;
+}
+
+.field {
+    max-width: 95vw;
 }
 
 .field_border {
@@ -47,11 +51,11 @@ body {
     background-color: white;
     border-radius: 53px;
     max-width: 100%;
-    padding: 5rem;
+    padding: 5rem 1rem;
 }
 
 .hello {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 30px;   
@@ -64,6 +68,7 @@ body {
 .hello_text {
     font-size: 35px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .hello_text_small {
@@ -134,8 +139,8 @@ body {
     flex-grow: 1;
     padding: 7px 10px;
     border: 1px solid rgb(7, 206, 123);
-    border-radius: 7px; 
-    color: white;
+    border-radius: 7px;
+    color: rgb(255, 255, 255);
     font-size: 13px;
 }
 
